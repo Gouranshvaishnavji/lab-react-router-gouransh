@@ -4,7 +4,6 @@ import {  Route, Routes } from 'react-router-dom'
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Home from './pages/Home';
-import KYC from './pages/KYC';
 
 function App() {
 
@@ -19,6 +18,9 @@ function App() {
         <Route path='/Contact' element={<Contact />} />
       </Routes>
       </div>
+      <footer>
+        <p>&copy; 2024 Gouransh. All rights reserved.</p>
+      </footer>
     </>
   )
 }
