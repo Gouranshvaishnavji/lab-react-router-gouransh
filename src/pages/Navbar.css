@@ -20,15 +20,15 @@ background-color: rgb(44, 48, 48);
   transition: color 0.3s ease;
 }
 #navbar a:hover {
-  color: rgb(255, 242, 0);
+  color: rgb(182, 241, 234);
   text-decoration: underline;
 }
 #navbar a.active:hover {
-  color: chartreuse;
+  color: rgb(202, 226, 177);
   text-decoration: none;
 }
 #navbar .Kalvium{
-    padding-left: 55%;
+    padding-right: 15vw;
   color: rgb(0, 21, 255);
   font-size: 30px;
   font-weight: bold;
